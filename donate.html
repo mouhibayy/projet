@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Donate</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <nav>
+        <div class="logo"><a class="div1" href="index.html">Lumière verte</a></div>
+      <ul>
+        <li><a class="div" href="index.html">Accueil</a></li>
+        <li><a class="div" href="product.html">Produit</a></li>
+        <li><a class="div" href="donate.html">Contribuer</a></li>
+        <li><a class="div" href="contact.html">Contacter</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="donate">
+      <h2>Faire une contribution</h2>
+      <p>Votre soutien fait la différence. Merci de nous aider à grandir !</p>
+      <form onsubmit="alert('Merci! pour votre contribution voir ton email ')" >
+        Montant : <input type="number" placeholder="DT" required>
+        Email : <input type="email" placeholder="email@xy.com" required>
+        Numéro : <input type="number" placeholder="+216" required>
+        <button type="submit">Contribuer</button>
+        <p id="para"></p>
+      </form>
+    </section>
+  </main>
+  
+  <script src="script.js"></script>
+</body>
+</html>
