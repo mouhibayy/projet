@@ -167,3 +167,9 @@ body {
 .social-icons a:hover {
     color: #007bff; /* Change color on hover */
 }
+.center-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%; /* Adjust the width as needed */
+}
