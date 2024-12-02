@@ -167,9 +167,21 @@ body {
 .social-icons a:hover {
     color: #007bff; /* Change color on hover */
 }
-.center-image {
+.responsive-image {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 100%; /* Adjust the width as needed */
+  width: 80%; /* Default width for smaller screens */
+}
+
+@media (min-width: 768px) {
+  .responsive-image {
+      width: 50%; /* Adjust width for medium screens */
+  }
+}
+
+@media (min-width: 1024px) {
+  .responsive-image {
+      width: 30%; /* Adjust width for larger screens */
+  }
 }
